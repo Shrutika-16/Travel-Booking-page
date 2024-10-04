@@ -1,0 +1,42 @@
+#destinations {
+    background-color: #e7f0ff; /* Light blue background for the destinations section */
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  #destinations h2 {
+    color: #0056b3;
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .destinations-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns per row */
+    gap: 20px;
+  }
+  
+  .destination-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .destination-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .destination-card h3 {
+    color: #0056b3;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+  }
+  
+  .destination-card p {
+    color: #333;
+    font-size: 1rem;
+  }
+  

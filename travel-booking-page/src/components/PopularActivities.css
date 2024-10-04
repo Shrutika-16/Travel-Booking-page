@@ -1,0 +1,42 @@
+#activities {
+    background-color: #f1f8e9;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  #activities h2 {
+    color: #33691e;
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .activities-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .activity-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .activity-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .activity-card h3 {
+    color: #33691e;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+  }
+  
+  .activity-card p {
+    color: #333;
+    font-size: 1rem;
+  }
+  

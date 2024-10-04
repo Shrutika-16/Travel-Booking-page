@@ -1,0 +1,59 @@
+
+
+   .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #266393; /* Header background color */
+    padding: 20px;
+    color: white;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Space between menu items */
+  }
+  
+  .nav-links li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .nav-links li a:hover {
+    background-color: #003d80; /* Darker shade on hover */
+  }
+  
+  .nav-links li a.active {
+    background-color: #003d80; /* Active link color */
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .search-button {
+    background-color: #55b3e5; /* Green button */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .search-button:hover {
+    background-color: #ffffff;
+    color: #55b3e5; /* Darker green on hover */
+  }
+  
