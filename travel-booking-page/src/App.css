@@ -1,0 +1,70 @@
+:root {
+  --primary-color: #343a40; /* Dark gray for header */
+  --primary-dark: #23272b; /* Darker gray */
+  --light-color: #f8f9fa; /* Light background */
+  --button-color: #28a745; /* Green button color */
+  --button-hover: #218838; /* Darker green for hover */
+  --footer-bg: #23272b; /* Dark footer background */
+  --text-color: #ffffff; /* White text */
+}
+
+/* Existing styles for body */
+body {
+  background-color: var(--light-color);
+  font-family: 'Arial', sans-serif;
+  color: var(--text-color);
+}
+
+.navbar {
+  background-color: var(--primary-color);
+}
+
+.nav-link {
+  color: var(--text-color) !important;
+}
+
+button {
+  background-color: var(--button-color);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--button-hover);
+}
+
+.footer {
+  background-color: var(--footer-bg);
+  color: var(--text-color);
+}
+
+
+.App-header {
+  background-color: var(--primary-color);
+  padding: 20px;
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.App {
+  margin-bottom: 100px; /* Adjust for footer */
+}
+
+h2 {
+  color: #007bff;
+}
+
+.card {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border: none;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}

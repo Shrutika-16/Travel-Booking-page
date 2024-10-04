@@ -1,0 +1,42 @@
+#guides {
+    background-color: #ffebee;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  #guides h2 {
+    color: #c62828;
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .guides-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .guide-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .guide-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .guide-card h3 {
+    color: #c62828;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+  }
+  
+  .guide-card p {
+    color: #333;
+    font-size: 1rem;
+  }
+  

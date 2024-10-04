@@ -1,0 +1,53 @@
+#booking {
+    background-color: #e7f0ff; /* Light blue background for the booking section */
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  #booking h2 {
+    color: #0056b3;
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .booking-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #0056b3;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .submit-button {
+    background-color: #28a745; /* Green button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .submit-button:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+  
